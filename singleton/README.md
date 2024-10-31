@@ -153,6 +153,11 @@ func main() {
 3. **Configuração Global:** Manter a configuração em uma instância Singleton permite o acesso fácil e eficiente às configurações por toda a aplicação.
 4. **Cache Global:** Um cache em Singleton evita consultas desnecessárias e melhora a performance ao armazenar dados de uso frequente.
 
+Em todos esses casos, o Singleton oferece uma maneira eficaz de garantir que apenas uma instância seja criada e compartilhada por toda a aplicação.
+
+Código-fonte dos casos acima disponível em [singleton/Exemplos.md](./Exemplos.md).
+
+
 ### Reflexão Final
 
 O Singleton é poderoso, mas deve ser usado com cuidado. Em muitos casos, ele pode ser vantajoso, mas em sistemas altamente complexos, onde a modularidade e independência são importantes, outras alternativas podem ser mais adequadas. Além disso, o uso do Singleton pode complicar testes unitários e, em ambientes com alta concorrência, é preciso planejar cuidadosamente para evitar problemas de desempenho.
