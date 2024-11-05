@@ -8,11 +8,11 @@ Este repositório contém uma coleção de artigos e exemplos práticos sobre De
 
 - [Singleton](./singleton/README.md): Garante que uma classe tenha apenas uma instância e fornece um ponto global de acesso a ela.
 
+- [Builder](./builder/README.md): Separa a construção de um objeto complexo da sua representação, permitindo o mesmo processo de construção criar diferentes representações. 
+
 - [Factory Method](./factory-method/README.md): Define uma interface para criar um objeto, mas permite que as subclasses decidam qual classe instanciar. (breve)
 
 - [Abstract Factory](./abstract-factory/README.md): Fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas. (breve)
-
-- [Builder](./builder/README.md): Separa a construção de um objeto complexo da sua representação, permitindo o mesmo processo de construção criar diferentes representações. (breve)
 
 - [Prototype](./prototype/README.md): Especifica os tipos de objetos a serem criados usando uma instância prototípica e cria novos objetos copiando este protótipo.(breve)
 
